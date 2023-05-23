@@ -342,7 +342,7 @@
   <!-- API链接选择框 -->
   <div class="api-url-container"></div>
   <!-- API链接选择 -->
-  <h2>选择查询线路</h2>
+<!--   <h2>选择查询线路</h2>
   <p>支持自定义线路，官网线路需要魔法</p>
   <select id="api-url-select">
     <option value="https://api.askgptai.tech">【CloudFlare】api.askgptai.tech</option>
@@ -351,9 +351,9 @@
     <option value="https://api.openai.com">【官网线路】api.openai.com</option>
     <option value="custom">自定义 ...</option>
   </select>
-
+ -->
   <!-- 自定义API链接输入框 -->
-  <input type="text" id="custom-url-input" placeholder="输入自定义API，默认使用 https 协议" />
+<!--   <input type="text" id="custom-url-input" placeholder="输入自定义API，默认使用 https 协议" /> -->
   </div>
   <button :class="{ loading }" :disabled="loading" onclick="sendRequest()">查询</button> </p>
   <h2 id="result-head" style="visibility:hidden">查询结果</h2>
@@ -368,10 +368,10 @@
     </thead>
     <tbody></tbody>
   </table>
-  <footer>
+<!--   <footer>
     <a href="https://github.com/ClarenceDan/openai-billing">前往 Github 查看源码或独立部署</a>
     <p x-data="ip" x-init='$nextTick(() => {getipinfo()})' x-show.transition.opacity="ipinfo" x-text="ipinfo"></p>
-  </footer>
+  </footer> -->
   <script>
 
     // 定义查询过的API-KEY列表
